@@ -22,12 +22,22 @@ class Carousel {
   changeImage() {
     this.leftButton.forEach(click => this.images[click--]);
     this.rightButton.forEach(click => this.images[click++]);
-    /* if ( click leftButton ) {
+
+    /*
+    for (let i = 0; i < this.images.length; i++) {
+      this.rightButton[i]
+      this.leftButton[i + 1]
+    }
+    */
+
+    /*
+    if ( click leftButton ) {
       change index of this.images by i--
     }
     if ( click rightButton ) {
        change index of this.images by i++
-    } */
+    }
+    */
   }
 }
 
